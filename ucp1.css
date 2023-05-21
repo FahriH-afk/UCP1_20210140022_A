@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 14px 10px;
+    color: bisque;
+}
+
+ul {
+    padding: 14px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    background: whitesmoke; color: #d4d4d4;
+}
+
+li a:hover {
+    background: black; height: 50px;
+}
+
+.navi {
+    background: whitesmoke; height: 50px;
+}
+
+h1 {
+    position: fixed;
+    left: 250px;
+    width: 50%;
+    height: 200px;
+}
+
+.carousel-item img {
+    height: auto;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
